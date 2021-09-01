@@ -1,0 +1,27 @@
+.link-text {
+    color: black;
+}
+
+.container {
+    width: 100%;
+    background: rgb(166, 166, 184);
+    display: grid;
+}
+
+.link-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.footer-link-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+#google-image {
+    justify-self: center;
+}
+
+#search-bar {
+    justify-self: center;
+}
