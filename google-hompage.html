@@ -2,45 +2,48 @@
 <html>
 
     <head>
-
+        
+        <meta charset="utf-8">
         <link rel="stylesheet" href="styles.css">
+        <title>foogle-homepage</title>
     
     </head>
 
     <body>
-        
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Store</a></li>
-            <li style="float: right"><a href="#">Sign In</a></li>
-            <li style="float: right"><a href="#">Apps</a></li>
-            <li style="float: right"><a href="#">Images</a></li>
-            <li style="float: right"><a href="#">Gmail</a></li>
-        </ul>
-        <div>
-            <div style="text-align: center;">
-                <img style="width: 272px" 
-                src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/the_front_end/project_html_css/imgs/00.png">
+        <div class="container">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
+                <li style="float: right"><a href="#">Sign In</a></li>
+                <li style="float: right"><a href="#">Apps</a></li>
+                <li style="float: right"><a href="#">Images</a></li>
+                <li style="float: right"><a href="#">Gmail</a></li>
+            </ul>
+            
+            <div class="search-bar">
+                <div>
+                    <img style="width: 272px" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/the_front_end/project_html_css/imgs/00.png">
+                </div>
+                
+                <div>
+                    <input type="text">
+                </div>
+
+                <div id="search-bar-buttons">
+                    <button type="submit">Google</button>
+                    <button type="submit">I'm Feeling Lucky</button>
+                </div>
             </div>
             
-            <div style="text-align: center;">
-                <input type="text">
-            </div>
-
-            <div style="text-align: center;">
-                <button type="submit">Google</button>
-                <button type="submit">I'm Feeling Lucky</button>
-            </div>
+                <ul class="footer">
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">How Search Works</a></li>
+                    <li style="float: right"><a href="#">Settings</a></li>
+                    <li style="float: right"><a href="#">Terms</a></li>
+                    <li style="float: right"><a href="#">Privacy</a></li>
+                </ul>
         </div>
-        <ul class="footer">
-            <li><a href="#">Advertising</a></li>
-            <li><a href="#">Business</a></li>
-            <li><a href="#">How Search Works</a></li>
-            <li style="float: right"><a href="#">Settings</a></li>
-            <li style="float: right"><a href="#">Terms</a></li>
-            <li style="float: right"><a href="#">Privacy</a></li>
-        </ul>
-    
     </body>
 
     </html>
